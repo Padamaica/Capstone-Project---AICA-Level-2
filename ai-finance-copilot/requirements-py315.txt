@@ -1,0 +1,14 @@
+# Core (analysis + reports)
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+reportlab>=4.0
+matplotlib>=3.8
+# API
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+# UI
+streamlit>=1.35
+# Dev
+pytest>=8.0

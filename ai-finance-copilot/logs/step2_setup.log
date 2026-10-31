@@ -1,0 +1,332 @@
+===== STEP 2 SETUP 31-10-2026 14:37:41.95 ===== 
+--- Looking for Ollama 
+File Not Found
+File Not Found
+Name: ollama
+Version: 0.6.3
+Summary: The official Python client for Ollama.
+Home-page: https://ollama.com
+Author: 
+Author-email: hello@ollama.com
+License-Expression: MIT
+Location: C:\Users\Padam Jain\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages
+Requires: httpx, pydantic
+Required-by: 
+--- Creating venv with Python 3.15 
+Python 3.15.1
+Requirement already satisfied: pip in .\.venv\Lib\site-packages (26.2.2)
+--- Installing requirements 
+Collecting pandas>=2.2 (from -r requirements.txt (line 2))
+  Using cached pandas-3.1.0-cp315-cp315-win_amd64.whl.metadata (18 kB)
+Collecting numpy>=1.26 (from -r requirements.txt (line 3))
+  Using cached numpy-2.5.4-cp315-cp315-win_amd64.whl.metadata (6.6 kB)
+Collecting openpyxl>=3.1 (from -r requirements.txt (line 4))
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting reportlab>=4.0 (from -r requirements.txt (line 5))
+  Using cached reportlab-5.1.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting matplotlib>=3.8 (from -r requirements.txt (line 6))
+  Using cached matplotlib-3.11.2-cp315-cp315-win_amd64.whl.metadata (80 kB)
+Collecting fastapi>=0.110 (from -r requirements.txt (line 8))
+  Downloading fastapi-0.162.0-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn>=0.29 (from uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Using cached uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting python-multipart>=0.0.9 (from -r requirements.txt (line 10))
+  Using cached python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting streamlit>=1.35 (from -r requirements.txt (line 12))
+  Using cached streamlit-1.66.1-py3-none-any.whl.metadata (10 kB)
+Collecting pytest>=8.0 (from -r requirements.txt (line 14))
+  Downloading pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=2.2->-r requirements.txt (line 2))
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting tzdata (from pandas>=2.2->-r requirements.txt (line 2))
+  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting et-xmlfile (from openpyxl>=3.1->-r requirements.txt (line 4))
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting pillow>=9.0.0 (from reportlab>=4.0->-r requirements.txt (line 5))
+  Using cached pillow-13.0.0-cp315-cp315-win_amd64.whl.metadata (9.3 kB)
+Collecting charset-normalizer (from reportlab>=4.0->-r requirements.txt (line 5))
+  Using cached charset_normalizer-3.5.2-cp315-cp315-win_amd64.whl.metadata (47 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached contourpy-1.4.0-cp315-cp315-win_amd64.whl.metadata (3.8 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Downloading fonttools-4.68.0-cp315-cp315-win_amd64.whl.metadata (142 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached kiwisolver-1.5.1-cp315-cp315-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyparsing>=3 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting starlette>=0.46.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting pydantic>=2.9.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading pydantic-2.14.2-py3-none-any.whl.metadata (137 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting click>=7.0 (from uvicorn>=0.29->uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn>=0.29->uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=5.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached altair-6.3.0-py3-none-any.whl.metadata (11 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting protobuf<8,>=5.26.1 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pyarrow!=25.0.0,<27,>=10.0.1 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached pyarrow-26.0.0-cp315-cp315-win_amd64.whl.metadata (3.0 kB)
+Collecting requests<3,>=2.27 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting anyio<5,>=4.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting websockets<18,>=12.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading websockets-17.4-cp315-cp315-win_amd64.whl.metadata (6.5 kB)
+Collecting itsdangerous<3,>=2.1.2 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting idna>=2.8 (from anyio<5,>=4.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting colorama>=0.4 (from pytest>=8.0->-r requirements.txt (line 14))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting iniconfig>=2 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting pluggy<2,>=1.6 (from pytest>=8.0->-r requirements.txt (line 14))
+  Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.15 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached markupsafe-3.0.4-cp315-cp315-win_amd64.whl.metadata (2.8 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached rpds_py-2026.9.1-cp315-cp315-win_amd64.whl.metadata (4.2 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi>=0.110->-r requirements.txt (line 8))
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.2 (from pydantic>=2.9.0->fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading pydantic_core-2.50.2-cp315-cp315-win_amd64.whl.metadata (6.7 kB)
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=2.2->-r requirements.txt (line 2))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting httptools>=0.8.0 (from uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Downloading httptools-0.9.0-cp315-cp315-win_amd64.whl.metadata (3.7 kB)
+Collecting python-dotenv>=0.13 (from uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Using cached python_dotenv-1.2.4-py3-none-any.whl.metadata (29 kB)
+INFO: pip is looking at multiple versions of uvicorn[standard] to determine which version is compatible with other requirements. This could take a while.
+Collecting uvicorn[standard]>=0.29 (from -r requirements.txt (line 9))
+  Downloading uvicorn-0.53.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.52.4-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.52.3-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.52.2-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.52.1-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.52.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.51.0-py3-none-any.whl.metadata (6.6 kB)
+INFO: pip is still looking at multiple versions of uvicorn[standard] to determine which version is compatible with other requirements. This could take a while.
+  Downloading uvicorn-0.50.2-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.50.1-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.50.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.49.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.48.0-py3-none-any.whl.metadata (6.7 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading uvicorn-0.47.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.46.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.45.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.44.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.43.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.42.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.41.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.40.0-py3-none-any.whl.metadata (6.7 kB)
+  Downloading uvicorn-0.39.0-py3-none-any.whl.metadata (6.8 kB)
+  Downloading uvicorn-0.38.0-py3-none-any.whl.metadata (6.8 kB)
+  Downloading uvicorn-0.37.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.36.1-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.36.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.35.0-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.34.2-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.34.1-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.34.0-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.33.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.32.1-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.32.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.31.1-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.31.0-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.30.6-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.30.5-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.30.4-py3-none-any.whl.metadata (6.6 kB)
+  Downloading uvicorn-0.30.3-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.30.2-py3-none-any.whl.metadata (6.5 kB)
+  Downloading uvicorn-0.30.1-py3-none-any.whl.metadata (6.3 kB)
+  Downloading uvicorn-0.30.0-py3-none-any.whl.metadata (6.3 kB)
+  Downloading uvicorn-0.29.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting streamlit>=1.35 (from -r requirements.txt (line 12))
+  Downloading streamlit-1.66.0-py3-none-any.whl.metadata (10 kB)
+Collecting pandas>=2.2 (from -r requirements.txt (line 2))
+  Downloading pandas-3.0.6-cp315-cp315-win_amd64.whl.metadata (19 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading rpds_py-2026.6.3-cp315-cp315-win_amd64.whl.metadata (4.2 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=2.2->-r requirements.txt (line 2))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pyparsing>=3 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting pygments>=2.15 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic>=2.9.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Using cached pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+Collecting packaging>=20.0 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading opentelemetry_api-1.45.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached narwhals-2.27.1-py3-none-any.whl.metadata (15 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading jsonschema_specifications-2025.4.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading attrs-25.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading jinja2-3.1.5-py3-none-any.whl.metadata (2.6 kB)
+Collecting iniconfig>=2 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting h11>=0.8 (from uvicorn>=0.29->uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Downloading h11-0.15.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting fonttools>=4.28.2 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Using cached fonttools-4.67.0-cp315-cp315-win_amd64.whl.metadata (139 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.8->-r requirements.txt (line 6))
+  Downloading cycler-0.12.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting colorama>=0.4 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading colorama-0.4.5-py2.py3-none-any.whl.metadata (15 kB)
+Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached certifi-2026.10.19-py3-none-any.whl.metadata (2.5 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting pluggy<2,>=1.6 (from pytest>=8.0->-r requirements.txt (line 14))
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pytest>=8.0 (from -r requirements.txt (line 14))
+  Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting websockets<18,>=12.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Using cached websockets-17.3-cp315-cp315-win_amd64.whl.metadata (6.5 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading watchdog-5.0.3-py3-none-win_amd64.whl.metadata (41 kB)
+Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting starlette>=0.46.0 (from fastapi>=0.110->-r requirements.txt (line 8))
+  Using cached starlette-1.9.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting idna>=2.8 (from anyio<5,>=4.0.0->streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+Collecting charset-normalizer (from reportlab>=4.0->-r requirements.txt (line 5))
+  Downloading charset_normalizer-3.5.1-cp315-cp315-win_amd64.whl.metadata (46 kB)
+Collecting requests<3,>=2.27 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading requests-2.34.1-py3-none-any.whl.metadata (4.8 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading pydeck-0.9.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting protobuf<8,>=5.26.1 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading protobuf-7.36.1-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pillow>=9.0.0 (from reportlab>=4.0->-r requirements.txt (line 5))
+  Downloading pillow-12.3.0-cp315-cp315-win_amd64.whl.metadata (9.3 kB)
+Collecting itsdangerous<3,>=2.1.2 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading itsdangerous-2.1.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting click>=7.0 (from uvicorn>=0.29->uvicorn[standard]>=0.29->-r requirements.txt (line 9))
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting anyio<5,>=4.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading anyio-4.15.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=5.0.0 (from streamlit>=1.35->-r requirements.txt (line 12))
+  Downloading altair-6.2.2-py3-none-any.whl.metadata (11 kB)
+Collecting python-multipart>=0.0.9 (from -r requirements.txt (line 10))
+  Downloading python_multipart-0.0.31-py3-none-any.whl.metadata (2.1 kB)
+Collecting fastapi>=0.110 (from -r requirements.txt (line 8))
+  Downloading fastapi-0.161.1-py3-none-any.whl.metadata (26 kB)
+Collecting reportlab>=4.0 (from -r requirements.txt (line 5))
+  Downloading reportlab-5.0.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting openpyxl>=3.1 (from -r requirements.txt (line 4))
+  Downloading openpyxl-3.1.4-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting numpy>=1.26 (from -r requirements.txt (line 3))
+  Downloading numpy-2.5.3-cp315-cp315-win_amd64.whl.metadata (6.6 kB)
+ERROR: Cannot install uvicorn[standard]==0.29.0, uvicorn[standard]==0.30.0, uvicorn[standard]==0.30.1, uvicorn[standard]==0.30.2, uvicorn[standard]==0.30.3, uvicorn[standard]==0.30.4, uvicorn[standard]==0.30.5, uvicorn[standard]==0.30.6, uvicorn[standard]==0.31.0, uvicorn[standard]==0.31.1, uvicorn[standard]==0.32.0, uvicorn[standard]==0.32.1, uvicorn[standard]==0.33.0, uvicorn[standard]==0.34.0, uvicorn[standard]==0.34.1, uvicorn[standard]==0.34.2, uvicorn[standard]==0.34.3, uvicorn[standard]==0.35.0, uvicorn[standard]==0.36.0, uvicorn[standard]==0.36.1, uvicorn[standard]==0.37.0, uvicorn[standard]==0.38.0, uvicorn[standard]==0.39.0, uvicorn[standard]==0.40.0, uvicorn[standard]==0.41.0, uvicorn[standard]==0.42.0, uvicorn[standard]==0.43.0, uvicorn[standard]==0.44.0, uvicorn[standard]==0.45.0, uvicorn[standard]==0.46.0, uvicorn[standard]==0.47.0, uvicorn[standard]==0.48.0, uvicorn[standard]==0.49.0, uvicorn[standard]==0.50.0, uvicorn[standard]==0.50.1, uvicorn[standard]==0.50.2, uvicorn[standard]==0.51.0, uvicorn[standard]==0.52.0, uvicorn[standard]==0.52.1, uvicorn[standard]==0.52.2, uvicorn[standard]==0.52.3, uvicorn[standard]==0.52.4, uvicorn[standard]==0.53.0 and uvicorn[standard]==0.54.0 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    uvicorn[standard] 0.54.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.53.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.52.4 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.52.3 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.52.2 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.52.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.52.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.51.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.50.2 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.50.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.50.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.49.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.48.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.47.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.46.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.45.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.44.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.43.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.42.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.41.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.40.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.39.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.38.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.37.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.36.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.36.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.35.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.34.3 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.34.2 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.34.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.34.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.33.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.32.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.32.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.31.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.31.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.6 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.5 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.4 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.3 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.2 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.1 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.30.0 depends on pyyaml>=5.1; extra == "standard"
+    uvicorn[standard] 0.29.0 depends on pyyaml>=5.1; extra == "standard"
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    pyyaml
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+PIP_EXIT=1 
+Package Version
+------- -------
+pip     26.2.2
+===== DONE ===== 

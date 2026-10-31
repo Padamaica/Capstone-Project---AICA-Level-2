@@ -1,0 +1,59 @@
+# One-command, self-contained deployment (on-prem server or an India-region VM).
+#   1) cp .env.example .env   (edit keys)
+#   2) docker compose --profile setup run --rm ollama-pull     # one-time model download
+#   3) docker compose up -d
+# UI: http://<server>:8501   API docs: http://<server>:8000/docs
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes: [ollama_models:/root/.ollama]
+    networks: [backend]            # internal-only network: the LLM has NO internet access
+    restart: unless-stopped
+    # Uncomment for NVIDIA GPU (needs nvidia-container-toolkit):
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+
+  ollama-pull:                     # one-time job with internet to download model weights
+    image: ollama/ollama:latest
+    profiles: [setup]
+    volumes: [ollama_models:/root/.ollama]
+    networks: [frontend]
+    entrypoint: ["/bin/sh", "-c", "ollama serve & sleep 5 && ollama pull ${LLM_MODEL:-qwen2.5:7b-instruct}"]
+
+  api:
+    build: .
+    env_file: .env
+    environment:
+      LLM_BASE_URL: http://ollama:11434
+      COPILOT_DB_PATH: /app/data/copilot.db
+    volumes: [copilot_data:/app/data, copilot_output:/app/output, copilot_logs:/app/logs]
+    ports: ["8000:8000"]
+    networks: [frontend, backend]
+    depends_on: [ollama]
+    restart: unless-stopped
+
+  ui:
+    build: .
+    command: ["streamlit", "run", "ui/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    env_file: .env
+    environment:
+      LLM_BASE_URL: http://ollama:11434
+      COPILOT_DB_PATH: /app/data/copilot.db
+    volumes: [copilot_data:/app/data, copilot_output:/app/output, copilot_logs:/app/logs]
+    ports: ["8501:8501"]
+    networks: [frontend, backend]
+    depends_on: [ollama]
+    restart: unless-stopped
+
+networks:
+  frontend: {}
+  backend:
+    internal: true
+
+volumes:
+  ollama_models: {}
+  copilot_data: {}
+  copilot_output: {}
+  copilot_logs: {}

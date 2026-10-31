@@ -1,0 +1,17 @@
+AI Finance Co-Pilot - run summary
+Input file : MIS_Input_Test_500_Lines.xlsx
+Month      : 2026-09
+Run at     : 31-Oct-2026 21:34
+Time taken : 182 sec
+AI model   : qwen2.5:3b-instruct (ONLINE)
+
+Data checks:
+  - Trial balance tallies: Dr = Cr = 447,238,004.21.
+  - Period covered: 01-Apr-2026 to 30-Sep-2026 (6 months).
+  - 500 rows, 199 vouchers, 29 ledgers.
+  - Anomalies flagged: 2
+
+Files:
+  - MIS_2026-09.xlsx
+  - MIS_2026-09.pdf
+  - AI_Output_2026-09.md

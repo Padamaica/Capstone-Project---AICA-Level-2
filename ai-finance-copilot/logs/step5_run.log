@@ -1,0 +1,74 @@
+===== STEP 5 RUN 31-10-2026 15:15:42.92 ===== 
+LLM_PROVIDER=ollama
+LLM_BASE_URL=http://localhost:11434
+LLM_MODEL=qwen2.5:3b-instruct
+LLM_API_KEY=
+LLM_TEMPERATURE=0.1
+LLM_TIMEOUT_S=900
+--- 1. Generate fresh sample data 
+GL rows: 3,633 | Dr 680,560,578.72 = Cr 680,560,578.72 | budget rows: 144
+Written to C:\Users\Padam Jain\Downloads\Capstone Project\ai-finance-copilot\data\sample
+--- 2. Tests 
+PASS  test_anomalies_find_planted_issues
+PASS  test_budget_variance_sign_logic
+PASS  test_end_to_end_pipeline_and_reports
+PASS  test_fifo_ageing
+PASS  test_forecast_shape
+PASS  test_indian_formatting
+PASS  test_localisation_guard
+PASS  test_mini_pnl_and_balance_sheet
+PASS  test_numeric_guard
+PASS  test_pii_masking_roundtrip
+PASS  test_qa_answer_guard_rejects_changed_numbers
+PASS  test_qa_routes_known_questions_to_verified_sql
+PASS  test_sample_data_validates_and_balances
+PASS  test_sql_guard
+PASS  test_validation_catches_unbalanced_and_unmapped
+
+15/15 passed
+--- 3. Full AI run 
+Python 3.15.1 | LLM: ollama qwen2.5:3b-instruct -> ONLINE
+Analysis + commentary done in 87s | source = llm:qwen2.5:3b-instruct accepted on attempt 1
+Q: What was the revenue trend in the last 6 months? -> llm:qwen2.5:3b-instruct (21s)
+Q: Which customers have the highest overdue receivables? -> llm:qwen2.5:3b-instruct (21s)
+Q: What were the top 5 expenses in the latest month? -> llm:qwen2.5:3b-instruct (13s)
+Q: How has closing cash moved over the last 6 months? -> llm:qwen2.5:3b-instruct (18s)
+Q: What was depreciation in each of the last 3 months? -> llm:qwen2.5:3b-instruct (23s)
+
+Reports:
+  excel: C:\Users\Padam Jain\Downloads\Capstone Project\ai-finance-copilot\output\MIS_2026-09.xlsx
+  pdf:   C:\Users\Padam Jain\Downloads\Capstone Project\ai-finance-copilot\output\MIS_2026-09.pdf
+  ai:    C:\Users\Padam Jain\Downloads\Capstone Project\ai-finance-copilot\output\AI_Output_2026-09.md
+
+### Headline
+Monthly MIS Commentary for Sep-2026
+
+### Performance
+- Revenue: ₹1.11 Cr, up 5.5% MoM and 24.7% YoY.
+- Gross Margin: 47.1%, up 140 bps MoM.
+- EBITDA: ₹30.16 L, EBITDA Margin: 27.3%.
+- PAT: ₹21.17 L, PAT Margin: 19.1%.
+
+### Budget Variance
+- Revenue: ₹1.11 Cr vs budget ₹1.17 Cr (-5.5%).
+
+### Cash & Working Capital
+- Closing Cash: ₹2.36 Cr, up ₹76.91 L MoM.
+- Cash from Operations: ₹77.91 L.
+- Days Sales Outstanding (DSO): 45 days.
+- Days Payable Outstanding (DPO): 35 days.
+- Current Ratio: 5.36x.
+
+### Risks & Anomalies
+- Top Anomalies: 
+  - Possible duplicate payment.
+  - Expense spike in Professional Fees.
+  - Unusually large entry in Professional Fees.
+
+### Recommended Actions
+1. Investigate the anomalies to ensure compliance and prevent future issues.
+2. Monitor the cash inflows and outflows closely to maintain adequate liquidity.
+3. Review and optimize the payment schedule to reduce DSO.
+4. Enhance cash forecasting accuracy for better liquidity management.
+RUN_EXIT=0 
+===== DONE ===== 

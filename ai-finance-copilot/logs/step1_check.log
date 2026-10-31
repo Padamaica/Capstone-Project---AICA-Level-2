@@ -1,0 +1,21 @@
+===== STEP 1 CHECK 31-10-2026 14:36:57.76 ===== 
+--- python --version 
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+--- where python 
+C:\Users\Padam Jain\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Padam Jain\AppData\Local\Python\bin\python.exe
+--- py -0p (all installed Pythons) 
+ -V:3.15 *        C:\Users\Padam Jain\AppData\Local\Python\pythoncore-3.15-64\python.exe
+--- pip --version 
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+--- where ollama 
+INFO: Could not find files for the given pattern(s).
+--- ollama --version 
+'ollama' is not recognized as an internal or external command,
+operable program or batch file.
+--- ollama list 
+'ollama' is not recognized as an internal or external command,
+operable program or batch file.
+--- ollama API tags 
+ 
+===== DONE ===== 

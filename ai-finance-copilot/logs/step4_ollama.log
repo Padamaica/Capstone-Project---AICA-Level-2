@@ -1,0 +1,18 @@
+===== STEP 4 OLLAMA 31-10-2026 14:39:38.10 ===== 
+--- Installing Ollama via winget 
+Found Ollama [Ollama.Ollama] Version 0.40.13
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/ollama/ollama/releases/download/v0.40.13/OllamaSetup.exe
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+WINGET_EXIT=0 
+Warning: could not connect to a running Ollama instance
+Warning: client version is 0.40.13
+--- Starting Ollama server 
+--- Pulling qwen2.5:3b-instruct 
+PULL_EXIT=0 
+NAME                   ID              SIZE      MODIFIED               
+qwen2.5:3b-instruct    357c53fb659c    1.9 GB    Less than a second ago    
+===== DONE ===== 

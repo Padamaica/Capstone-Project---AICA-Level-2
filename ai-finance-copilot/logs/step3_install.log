@@ -1,0 +1,236 @@
+===== STEP 3 INSTALL 31-10-2026 14:38:58.52 ===== 
+Collecting pandas>=2.2 (from -r requirements-py315.txt (line 2))
+  Using cached pandas-3.1.0-cp315-cp315-win_amd64.whl.metadata (18 kB)
+Collecting numpy>=1.26 (from -r requirements-py315.txt (line 3))
+  Using cached numpy-2.5.4-cp315-cp315-win_amd64.whl.metadata (6.6 kB)
+Collecting openpyxl>=3.1 (from -r requirements-py315.txt (line 4))
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting reportlab>=4.0 (from -r requirements-py315.txt (line 5))
+  Using cached reportlab-5.1.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting matplotlib>=3.8 (from -r requirements-py315.txt (line 6))
+  Using cached matplotlib-3.11.2-cp315-cp315-win_amd64.whl.metadata (80 kB)
+Collecting fastapi>=0.110 (from -r requirements-py315.txt (line 8))
+  Using cached fastapi-0.162.0-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn>=0.29 (from -r requirements-py315.txt (line 9))
+  Using cached uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting python-multipart>=0.0.9 (from -r requirements-py315.txt (line 10))
+  Using cached python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting streamlit>=1.35 (from -r requirements-py315.txt (line 12))
+  Using cached streamlit-1.66.1-py3-none-any.whl.metadata (10 kB)
+Collecting pytest>=8.0 (from -r requirements-py315.txt (line 14))
+  Using cached pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=2.2->-r requirements-py315.txt (line 2))
+  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting tzdata (from pandas>=2.2->-r requirements-py315.txt (line 2))
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting et-xmlfile (from openpyxl>=3.1->-r requirements-py315.txt (line 4))
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting pillow>=9.0.0 (from reportlab>=4.0->-r requirements-py315.txt (line 5))
+  Using cached pillow-13.0.0-cp315-cp315-win_amd64.whl.metadata (9.3 kB)
+Collecting charset-normalizer (from reportlab>=4.0->-r requirements-py315.txt (line 5))
+  Using cached charset_normalizer-3.5.2-cp315-cp315-win_amd64.whl.metadata (47 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached contourpy-1.4.0-cp315-cp315-win_amd64.whl.metadata (3.8 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached fonttools-4.68.0-cp315-cp315-win_amd64.whl.metadata (142 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached kiwisolver-1.5.1-cp315-cp315-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyparsing>=3 (from matplotlib>=3.8->-r requirements-py315.txt (line 6))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting starlette>=0.46.0 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting pydantic>=2.9.0 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached pydantic-2.14.2-py3-none-any.whl.metadata (137 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting click>=7.0 (from uvicorn>=0.29->-r requirements-py315.txt (line 9))
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn>=0.29->-r requirements-py315.txt (line 9))
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=5.0.0 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached altair-6.3.0-py3-none-any.whl.metadata (11 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting protobuf<8,>=5.26.1 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pyarrow!=25.0.0,<27,>=10.0.1 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached pyarrow-26.0.0-cp315-cp315-win_amd64.whl.metadata (3.0 kB)
+Collecting requests<3,>=2.27 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting anyio<5,>=4.0.0 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting websockets<18,>=12.0.0 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached websockets-17.4-cp315-cp315-win_amd64.whl.metadata (6.5 kB)
+Collecting itsdangerous<3,>=2.1.2 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting idna>=2.8 (from anyio<5,>=4.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting colorama>=0.4 (from pytest>=8.0->-r requirements-py315.txt (line 14))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting iniconfig>=2 (from pytest>=8.0->-r requirements-py315.txt (line 14))
+  Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting pluggy<2,>=1.6 (from pytest>=8.0->-r requirements-py315.txt (line 14))
+  Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.15 (from pytest>=8.0->-r requirements-py315.txt (line 14))
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached markupsafe-3.0.4-cp315-cp315-win_amd64.whl.metadata (2.8 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit>=1.35->-r requirements-py315.txt (line 12))
+  Using cached rpds_py-2026.9.1-cp315-cp315-win_amd64.whl.metadata (4.2 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.2 (from pydantic>=2.9.0->fastapi>=0.110->-r requirements-py315.txt (line 8))
+  Using cached pydantic_core-2.50.2-cp315-cp315-win_amd64.whl.metadata (6.7 kB)
+Collecting six>=1.6 (from python-dateutil>=2.9.0->pandas>=2.2->-r requirements-py315.txt (line 2))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached pandas-3.1.0-cp315-cp315-win_amd64.whl (10.9 MB)
+Using cached numpy-2.5.4-cp315-cp315-win_amd64.whl (12.7 MB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached reportlab-5.1.0-py3-none-any.whl (2.0 MB)
+Using cached matplotlib-3.11.2-cp315-cp315-win_amd64.whl (9.5 MB)
+Downloading fastapi-0.162.0-py3-none-any.whl (148 kB)
+Using cached uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Using cached python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Using cached streamlit-1.66.1-py3-none-any.whl (10.4 MB)
+Using cached altair-6.3.0-py3-none-any.whl (797 kB)
+Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached pillow-13.0.0-cp315-cp315-win_amd64.whl (7.3 MB)
+Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+Using cached pyarrow-26.0.0-cp315-cp315-win_amd64.whl (29.2 MB)
+Using cached pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached charset_normalizer-3.5.2-cp315-cp315-win_amd64.whl (210 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Using cached watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Downloading websockets-17.4-cp315-cp315-win_amd64.whl (219 kB)
+Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
+Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached contourpy-1.4.0-cp315-cp315-win_amd64.whl (240 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.68.0-cp315-cp315-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 2.5/2.5 MB 3.7 MB/s  0:00:00
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Using cached kiwisolver-1.5.1-cp315-cp315-win_amd64.whl (72 kB)
+Using cached markupsafe-3.0.4-cp315-cp315-win_amd64.whl (14 kB)
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pydantic-2.14.2-py3-none-any.whl (490 kB)
+Downloading pydantic_core-2.50.2-cp315-cp315-win_amd64.whl (2.3 MB)
+   ---------------------------------------- 2.3/2.3 MB 4.2 MB/s  0:00:00
+Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ---------------------------------------- 1.3/1.3 MB 3.8 MB/s  0:00:00
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+Using cached rpds_py-2026.9.1-cp315-cp315-win_amd64.whl (223 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Installing collected packages: websockets, watchdog, urllib3, tzdata, typing-extensions, six, rpds-py, python-multipart, pyparsing, pygments, pyarrow, protobuf, pluggy, pillow, packaging, numpy, narwhals, MarkupSafe, kiwisolver, itsdangerous, iniconfig, idna, h11, fonttools, et-xmlfile, cycler, colorama, click, charset-normalizer, certifi, attrs, annotated-types, annotated-doc, uvicorn, typing-inspection, requests, reportlab, referencing, python-dateutil, pytest, pydantic-core, opentelemetry-api, openpyxl, jinja2, contourpy, anyio, starlette, pydeck, pydantic, pandas, matplotlib, jsonschema-specifications, jsonschema, fastapi, altair, streamlit
+
+Successfully installed MarkupSafe-3.0.4 altair-6.3.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 attrs-26.1.0 certifi-2026.10.23 charset-normalizer-3.5.2 click-8.5.0 colorama-0.4.6 contourpy-1.4.0 cycler-0.12.1 et-xmlfile-2.0.0 fastapi-0.162.0 fonttools-4.68.0 h11-0.16.0 idna-3.20 iniconfig-2.3.1 itsdangerous-2.2.0 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kiwisolver-1.5.1 matplotlib-3.11.2 narwhals-2.28.0 numpy-2.5.4 openpyxl-3.1.5 opentelemetry-api-1.45.2 packaging-26.3 pandas-3.1.0 pillow-13.0.0 pluggy-1.7.0 protobuf-7.36.2 pyarrow-26.0.0 pydantic-2.14.2 pydantic-core-2.50.2 pydeck-0.9.3 pygments-2.21.0 pyparsing-3.3.3 pytest-9.2.0 python-dateutil-3.0.0 python-multipart-0.0.32 referencing-0.37.0 reportlab-5.1.0 requests-2.34.2 rpds-py-2026.9.1 six-1.17.0 starlette-1.10.0 streamlit-1.66.1 typing-extensions-4.16.0 typing-inspection-0.4.4 tzdata-2026.6 urllib3-2.8.0 uvicorn-0.54.0 watchdog-6.0.0 websockets-17.4
+PIP_EXIT=0 
+Package                   Version
+------------------------- ----------
+altair                    6.3.0
+annotated-doc             0.0.5
+annotated-types           0.8.0
+anyio                     4.15.1
+attrs                     26.1.0
+certifi                   2026.10.23
+charset-normalizer        3.5.2
+click                     8.5.0
+colorama                  0.4.6
+contourpy                 1.4.0
+cycler                    0.12.1
+et_xmlfile                2.0.0
+fastapi                   0.162.0
+fonttools                 4.68.0
+h11                       0.16.0
+idna                      3.20
+iniconfig                 2.3.1
+itsdangerous              2.2.0
+Jinja2                    3.1.6
+jsonschema                4.26.0
+jsonschema-specifications 2025.9.1
+kiwisolver                1.5.1
+MarkupSafe                3.0.4
+matplotlib                3.11.2
+narwhals                  2.28.0
+numpy                     2.5.4
+openpyxl                  3.1.5
+opentelemetry-api         1.45.2
+packaging                 26.3
+pandas                    3.1.0
+pillow                    13.0.0
+pip                       26.2.2
+pluggy                    1.7.0
+protobuf                  7.36.2
+pyarrow                   26.0.0
+pydantic                  2.14.2
+pydantic_core             2.50.2
+pydeck                    0.9.3
+Pygments                  2.21.0
+pyparsing                 3.3.3
+pytest                    9.2.0
+python-dateutil           3.0.0
+python-multipart          0.0.32
+referencing               0.37.0
+reportlab                 5.1.0
+requests                  2.34.2
+rpds-py                   2026.9.1
+six                       1.17.0
+starlette                 1.10.0
+streamlit                 1.66.1
+typing_extensions         4.16.0
+typing-inspection         0.4.4
+tzdata                    2026.6
+urllib3                   2.8.0
+uvicorn                   0.54.0
+watchdog                  6.0.0
+websockets                17.4
+===== DONE ===== 

@@ -1,0 +1,27 @@
+account,category,statement
+Sales - Domestic,Revenue,PL
+Sales - Export,Revenue,PL
+Interest Income,Other Income,PL
+Purchases - Raw Material,COGS,PL
+Freight Inward,COGS,PL
+Salaries & Wages,Employee Cost,PL
+Staff Welfare,Employee Cost,PL
+Rent,Admin Expenses,PL
+Electricity,Admin Expenses,PL
+Professional Fees,Admin Expenses,PL
+Software Subscriptions,Admin Expenses,PL
+Advertising,Marketing Expenses,PL
+Travel & Conveyance,Marketing Expenses,PL
+Depreciation,Depreciation,PL
+Interest on Term Loan,Finance Cost,PL
+Income Tax,Tax,PL
+Plant & Machinery,Fixed Assets,BS
+Accumulated Depreciation,Fixed Assets,BS
+Sundry Debtors,Receivables,BS
+HDFC Bank Current A/c,Cash & Bank,BS
+Input GST,Other Current Assets,BS
+Sundry Creditors,Payables,BS
+Output GST,Statutory Dues,BS
+Provision for Tax,Statutory Dues,BS
+Term Loan - SBI,Borrowings,BS
+Share Capital,Share Capital,BS

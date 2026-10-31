@@ -1,0 +1,145 @@
+month,category,amount
+2025-04,Revenue,7380000.0
+2025-04,COGS,3948300.0
+2025-04,Employee Cost,1200000.0
+2025-04,Admin Expenses,560000.0
+2025-04,Marketing Expenses,300000.0
+2025-04,Depreciation,150000.0
+2025-04,Finance Cost,54625.0
+2025-04,Other Income,20000.0
+2025-05,Revenue,7694880.0
+2025-05,COGS,4116761.0
+2025-05,Employee Cost,1200000.0
+2025-05,Admin Expenses,560000.0
+2025-05,Marketing Expenses,300000.0
+2025-05,Depreciation,150000.0
+2025-05,Finance Cost,53833.0
+2025-05,Other Income,20000.0
+2025-06,Revenue,8104716.0
+2025-06,COGS,4336023.0
+2025-06,Employee Cost,1200000.0
+2025-06,Admin Expenses,560000.0
+2025-06,Marketing Expenses,300000.0
+2025-06,Depreciation,150000.0
+2025-06,Finance Cost,53042.0
+2025-06,Other Income,20000.0
+2025-07,Revenue,8440848.0
+2025-07,COGS,4515854.0
+2025-07,Employee Cost,1200000.0
+2025-07,Admin Expenses,560000.0
+2025-07,Marketing Expenses,300000.0
+2025-07,Depreciation,150000.0
+2025-07,Finance Cost,52250.0
+2025-07,Other Income,20000.0
+2025-08,Revenue,8875944.0
+2025-08,COGS,4748630.0
+2025-08,Employee Cost,1200000.0
+2025-08,Admin Expenses,560000.0
+2025-08,Marketing Expenses,300000.0
+2025-08,Depreciation,150000.0
+2025-08,Finance Cost,51458.0
+2025-08,Other Income,20000.0
+2025-09,Revenue,9234532.0
+2025-09,COGS,4940475.0
+2025-09,Employee Cost,1200000.0
+2025-09,Admin Expenses,560000.0
+2025-09,Marketing Expenses,300000.0
+2025-09,Depreciation,150000.0
+2025-09,Finance Cost,50667.0
+2025-09,Other Income,20000.0
+2025-10,Revenue,9973294.0
+2025-10,COGS,5335712.0
+2025-10,Employee Cost,1200000.0
+2025-10,Admin Expenses,560000.0
+2025-10,Marketing Expenses,300000.0
+2025-10,Depreciation,181250.0
+2025-10,Finance Cost,49875.0
+2025-10,Other Income,20000.0
+2025-11,Revenue,9890184.0
+2025-11,COGS,5291248.0
+2025-11,Employee Cost,1200000.0
+2025-11,Admin Expenses,560000.0
+2025-11,Marketing Expenses,300000.0
+2025-11,Depreciation,181250.0
+2025-11,Finance Cost,49083.0
+2025-11,Other Income,20000.0
+2025-12,Revenue,9895835.0
+2025-12,COGS,5294272.0
+2025-12,Employee Cost,1200000.0
+2025-12,Admin Expenses,560000.0
+2025-12,Marketing Expenses,300000.0
+2025-12,Depreciation,181250.0
+2025-12,Finance Cost,48292.0
+2025-12,Other Income,20000.0
+2026-01,Revenue,10779735.0
+2026-01,COGS,5767158.0
+2026-01,Employee Cost,1200000.0
+2026-01,Admin Expenses,560000.0
+2026-01,Marketing Expenses,300000.0
+2026-01,Depreciation,181250.0
+2026-01,Finance Cost,47500.0
+2026-01,Other Income,20000.0
+2026-02,Revenue,11195245.0
+2026-02,COGS,5989456.0
+2026-02,Employee Cost,1200000.0
+2026-02,Admin Expenses,560000.0
+2026-02,Marketing Expenses,300000.0
+2026-02,Depreciation,181250.0
+2026-02,Finance Cost,46708.0
+2026-02,Other Income,20000.0
+2026-03,Revenue,12744587.0
+2026-03,COGS,6818354.0
+2026-03,Employee Cost,1200000.0
+2026-03,Admin Expenses,560000.0
+2026-03,Marketing Expenses,300000.0
+2026-03,Depreciation,181250.0
+2026-03,Finance Cost,45917.0
+2026-03,Other Income,20000.0
+2026-04,Revenue,9359624.0
+2026-04,COGS,5007399.0
+2026-04,Employee Cost,1320000.0
+2026-04,Admin Expenses,560000.0
+2026-04,Marketing Expenses,300000.0
+2026-04,Depreciation,181250.0
+2026-04,Finance Cost,45125.0
+2026-04,Other Income,20000.0
+2026-05,Revenue,9758968.0
+2026-05,COGS,5221048.0
+2026-05,Employee Cost,1320000.0
+2026-05,Admin Expenses,560000.0
+2026-05,Marketing Expenses,300000.0
+2026-05,Depreciation,181250.0
+2026-05,Finance Cost,44333.0
+2026-05,Other Income,20000.0
+2026-06,Revenue,10278740.0
+2026-06,COGS,5499126.0
+2026-06,Employee Cost,1320000.0
+2026-06,Admin Expenses,560000.0
+2026-06,Marketing Expenses,300000.0
+2026-06,Depreciation,181250.0
+2026-06,Finance Cost,43542.0
+2026-06,Other Income,20000.0
+2026-07,Revenue,10705037.0
+2026-07,COGS,5727195.0
+2026-07,Employee Cost,1320000.0
+2026-07,Admin Expenses,560000.0
+2026-07,Marketing Expenses,300000.0
+2026-07,Depreciation,181250.0
+2026-07,Finance Cost,42750.0
+2026-07,Other Income,20000.0
+2026-08,Revenue,11256843.0
+2026-08,COGS,6022411.0
+2026-08,Employee Cost,1320000.0
+2026-08,Admin Expenses,560000.0
+2026-08,Marketing Expenses,300000.0
+2026-08,Depreciation,181250.0
+2026-08,Finance Cost,41958.0
+2026-08,Other Income,20000.0
+2026-09,Revenue,11711619.0
+2026-09,COGS,6265716.0
+2026-09,Employee Cost,1320000.0
+2026-09,Admin Expenses,560000.0
+2026-09,Marketing Expenses,300000.0
+2026-09,Depreciation,181250.0
+2026-09,Finance Cost,41167.0
+2026-09,Other Income,20000.0
